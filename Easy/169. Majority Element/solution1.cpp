@@ -1,6 +1,17 @@
 /*
+Author: Djazy Faradj
+Problem: 169. Majority Element
+Description: 
+ - Given an array nums of size n, return the majority element.
+ - The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+Note: 
 My approach was to use an unordered map (hash map) to keep track of each element in the array and then check which one appears for more than n/2 times. O (n)
-Another, more optimal approach would have been to sort the array, guarenteeing the wanted element to be found at index n/2. O (n log n)
+Another approach would have been to sort the array, guarenteeing the wanted element to be found at index n/2. O (n log n)
+Optimal solution would have been to use Moore Voting Algorithm covered in solution2.cpp
+
+Time Complexity: O(n)
+Space Complexity: ?
 */
 
 class Solution {

@@ -1,3 +1,20 @@
+/*
+Author: Djazy Faradj
+Problem: 20. Valid Parentheses
+Description: 
+ - Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+ - An input string is valid if:
+    1. Open brackets must be closed by the same type of brackets.
+    2. Open brackets must be closed in the correct order.
+    3. Every close bracket has a corresponding open bracket of the same type.
+
+Note: No notes
+Time Complexity: ?
+Space Complexity: ?
+
+Relevent Topics: String, Stack
+*/
+
 class Solution {
 public:
     bool isValid(string s) {

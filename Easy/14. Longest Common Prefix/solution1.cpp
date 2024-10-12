@@ -1,4 +1,16 @@
-/* Not a good solution, needs to study better approach */
+/*
+Author: Djazy Faradj
+Problem: 14. Longest Common Prefix
+Description: 
+ - Write a function to find the longest common prefix string amongst an array of strings.
+ - If there is no common prefix, return an empty string "".
+
+Note: No notes
+Time Complexity: ?
+Space Complexity: ?
+
+Relevent Topics: String, Trie
+*/
 
 class Solution {
 public:

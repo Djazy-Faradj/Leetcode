@@ -1,3 +1,16 @@
+/*
+Author: Djazy Faradj
+Problem: 9. Palindrome Number
+Description: 
+ - Given an integer x, return true if x is a palindrome, and false otherwise.
+
+Note: No notes
+Time Complexity: ?
+Space Complexity: ?
+
+Relevent Topics: Math
+*/
+
 class Solution {
 public:
     bool isPalindrome(int x) {
