@@ -5,34 +5,38 @@
 This repository contains all of my solutions to problems from [LeetCode](https://leetcode.com/), a platform for practicing coding problems across a variety of categories such as algorithms, data structures, and system design. These solutions are written in various programming languages (mainly C++) and are organized by problem difficulty and category.
 
 ## Repository Structure
-The repository is organized into folders based on problem categories and difficulties:
-- **Categories**:
-  - Arrays
-  - Strings
-  - Dynamic Programming
-  - Graphs
-  - Trees
-  - ... (and more)
-
+The repository is organized into folders based on problem difficulties and problem number:
 - **Difficulties**:
   - Easy
   - Medium
   - Hard
 
+- **Problem Number**:
+  - 1. Two Sum
+  - 9. Palindrome Number
+  - 13. Roman to Integer
+  - 169. Majority Element
+  - 2423. Remove Letter to Equalize Frequency
+  - ... (and more)
+
+
 Each solution includes the following:
 - The problem statement (copied from LeetCode).
-- The approach and thought process used to solve the problem.
+- Personal notes regarding approach and thought process
 - Time and space complexity analysis of the solution.
 
 ### Example Structure:
 ```
-📂 LeetCode-Solutions/
-├── 📁 Arrays/
-│   ├── easy_two_sum.cpp
-│   └── medium_product_of_array_except_self.py
-├── 📁 Strings/
-│   ├── easy_valid_anagram.cpp
-│   └── hard_longest_substring_without_repeating.cpp
+📂 LeetCode/
+├── 📁 Easy/
+│   ├── 📁 1. Two Sum/
+│   └── 📁 169. Majority Element/
+│       ├── solution1.cpp
+│       └── solution2.cpp
+├── 📁 Medium/
+│   └── 📁 7. Reverse Integer/
+│       └── solution1.cpp
+└── 📁 Hard/
 ...
 ```
 
