@@ -5,13 +5,13 @@
 This repository contains all of my solutions to problems from [LeetCode](https://leetcode.com/), a platform for practicing coding problems across a variety of categories such as algorithms, data structures, and system design. These solutions are written in various programming languages (mainly C++) and are organized by problem difficulty and category.
 
 ## Repository Structure
-The repository is organized into folders based on problem difficulties and problem number:
+The repository is organized into folders based on difficulties and problem:
 - **Difficulties**:
   - Easy
   - Medium
   - Hard
 
-- **Problem Number**:
+- **Problem**:
   - 1. Two Sum
   - 9. Palindrome Number
   - 13. Roman to Integer
@@ -22,6 +22,7 @@ The repository is organized into folders based on problem difficulties and probl
 
 Each solution includes the following:
 - The problem statement (copied from LeetCode).
+- Relevent topics covered by the problem.
 - Personal notes regarding approach and thought process
 - Time and space complexity analysis of the solution.
 
@@ -58,9 +59,6 @@ Currently, most solutions are implemented in **C++**. Future plans include addin
 - Python
 - Java
 - JavaScript
-
-## Contributions
-Feel free to open pull requests if you would like to contribute to this repository with alternative solutions, optimizations, or solutions in different languages.
 
 ## I plan on doing..
 - **More Problems**: Continue adding solutions for newly solved problems.
