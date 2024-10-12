@@ -1,5 +1,3 @@
----
-
 # LeetCode Solutions
 
 This repository contains all of my solutions to problems from [LeetCode](https://leetcode.com/), a platform for practicing coding problems across a variety of categories such as algorithms, data structures, and system design. These solutions are written in various programming languages (mainly C++) and are organized by problem difficulty and category.
