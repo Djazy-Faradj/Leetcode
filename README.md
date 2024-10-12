@@ -12,11 +12,11 @@ The repository is organized into folders based on difficulties and problem:
   - Hard
 
 - **Problem**:
-  - 1. Two Sum
-  - 9. Palindrome Number
-  - 13. Roman to Integer
-  - 169. Majority Element
-  - 2423. Remove Letter to Equalize Frequency
+  - **1.** Two Sum
+  - **9.** Palindrome Number
+  - **13.** Roman to Integer
+  - **169.** Majority Element
+  - **2423.** Remove Letter to Equalize Frequency
   - ... (and more)
 
 
