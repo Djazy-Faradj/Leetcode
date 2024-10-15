@@ -12,6 +12,8 @@ Optimal solution would have been to use Moore Voting Algorithm covered in soluti
 
 Time Complexity: O(n)
 Space Complexity: ?
+
+Relevent Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
 */
 
 class Solution {
