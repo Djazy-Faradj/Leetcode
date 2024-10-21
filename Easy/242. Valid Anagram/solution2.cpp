@@ -9,10 +9,10 @@ Description:
  - Those numbers for which this process ends in 1 are happy.
  - Return true if n is a happy number, and false if not.
 
-Note: This solution is very good, beating 100% in runtime and 37% in memory
+Note: This solution is the best for memory though is slightly slower. (79% runtime, 93% memory)
 
-Time Complexity: O (n + m) where n is length of s and m is length of t
-Space Complexity: O (k) where k is amount of distinct letters in s
+Time Complexity: O (nlogn)
+Space Complexity: O (1)
 
 Relevent Topics: Hash Table, String, Sorting
 */
@@ -20,17 +20,13 @@ Relevent Topics: Hash Table, String, Sorting
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if (s.length() != t.length()) return false; // Edge case
-        unordered_map<char, int> umap;
-        for (char c : s)
-        {
-            if (umap.find(c) == umap.end()) umap[c] = 1;
-            else umap[c]++;
+        sort(s.begin(),s.end());
+        sort(t.begin(),t.end());
+
+        if(s==t){
+            return true;
         }
-        for (char c : t)
-        {
-            if (umap.find(c) == umap.end() || --umap[c] == -1) return false;
-        }
-        return true;
+        return false;
+        
     }
 };
