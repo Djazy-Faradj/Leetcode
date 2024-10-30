@@ -20,7 +20,7 @@ M             1000
  
  - Given a roman numeral, convert it to an integer.
 
-Note: No notes
+Note: Beats 100% in runtime and 74.67% in memory.
 Time Complexity: ?
 Space Complexity: ?
 
