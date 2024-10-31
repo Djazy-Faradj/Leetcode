@@ -7,9 +7,9 @@ Description:
  - The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
 
 Note: This solution beats 100% in runtime and 66.74% in memory. Though I think a better solution might exist because leetcode challenges us to find an O(m+n) solution whereas
-mine is O((M+N)Log(M+N)). Might cover in solution2.cpp
+mine is O((M+N)Log(M+N)). 
 
-Time Complexity: O((M+N)Log(M+N))
+Time Complexity: O((M+N)Log(M+N)) "due to sort function"
 Space Complexity: O(1)
 
 Relevent Topics: Array, Two Pointers, Sorting
